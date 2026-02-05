@@ -56,17 +56,17 @@ Reframes "human error" as symptom, not cause. The question isn't why people make
 
 Systems-theoretic accident model. Leveson argues accidents aren't component failures but control failures - the wrong constraints, or constraints not enforced. Relevant when AI becomes part of the control structure.
 
-**David Woods - [Four Concepts for Resilience](https://www.researchgate.net/publication/276139783_Four_concepts_for_resilience_and_the_implications_for_the_future_of_resilience_engineering)** (2015)
+**David Woods - [Four Concepts for Resilience](https://www.sciencedirect.com/science/article/abs/pii/S0951832015000848)** (2015)
 
 Distinguishes four meanings of "resilience": rebound, robustness, graceful extensibility, sustained adaptability. Clarifies what we actually mean when we say we want resilient systems.
 
 ## Trust and verification
 
-**Leslie Lamport - [Time, Clocks, and the Ordering of Events in a Distributed System](https://lamport.azurewebsites.net/pubs/time-clocks.pdf)** (1978)
+**Leslie Lamport - [Time, Clocks, and the Ordering of Events in a Distributed System](https://amturing.acm.org/p558-lamport.pdf)** (1978)
 
 Not about AI, but about the fundamental problem of knowing what happened and in what order. Relevant to any system where you need to understand and audit automated behaviour.
 
-**Charity Majors - [Observability Engineering](https://info.honeycomb.io/observability-engineering-oreilly-book-2022)** (2022)
+**Charity Majors - [Observability Engineering](https://www.oreilly.com/library/view/observability-engineering/9781492076438/)** (2022)
 
 The practical guide to building systems you can actually understand in production. The "observable" in my [observable, reversible, enforceable](https://cronyn.co.uk/writing/observable-reversible-enforceable.html) framework owes a lot to this.
 
@@ -104,7 +104,7 @@ How senior engineers create impact beyond writing code. Useful framing for what 
 
 ## Financial services context
 
-**Andrew Haldane - [The Dog and the Frisbee](https://www.bankofengland.co.uk/speech/2012/the-dog-and-the-frisbee)** (2012)
+**Andrew Haldane - [The Dog and the Frisbee](https://www.bankofengland.co.uk/paper/2012/the-dog-and-the-frisbee)** (2012)
 
 Bank of England speech on complexity in financial regulation. The argument: simple rules often outperform complex models. Relevant to thinking about where AI helps and where it doesn't.
 
