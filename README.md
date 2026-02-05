@@ -26,7 +26,7 @@ How AI changes the way engineers develop expertise.
 
 ## The foundational problem
 
-**Lisanne Bainbridge - [Ironies of Automation](https://www.ise.ncsu.edu/wp-content/uploads/2020/02/Bainbridge_1satisficer983_Ironies-of-front.pdf)** (1983)
+**Lisanne Bainbridge - [Ironies of Automation](https://ckrybus.com/static/papers/Bainbridge_1983_Automatica.pdf)** (1983)
 
 Written about industrial process control, but maps precisely onto AI-assisted software development. The core insight: the more advanced the automation, the more critical the human contribution, and the less likely humans are able to provide it. If you read one thing on this list, read this. I wrote about applying this to AI in [Bainbridge's Ironies of Automation, forty years on](https://cronyn.co.uk/writing/ironies-of-automation.html).
 
@@ -34,11 +34,11 @@ Written about industrial process control, but maps precisely onto AI-assisted so
 
 How experts actually make decisions under pressure. Not through analysis, but through pattern recognition built from experience. Relevant because AI changes how engineers build that pattern recognition.
 
-**Gary Klein - [Seeing What Others Don't](https://www.simonandschuster.com/books/Seeing-What-Others-Dont/Gary-Klein/9781610393829)** (2013)
+**Gary Klein - [Seeing What Others Don't](https://www.hachettebookgroup.com/titles/gary-klein/seeing-what-others-dont/9781610392754/)** (2013)
 
 Klein's follow-up to Sources of Power. This one focuses on insight: how experts notice things others miss. Relevant to understanding what expertise looks like and whether AI can replicate it.
 
-**Erik Hollnagel & David Woods - [Joint Cognitive Systems](https://www.routledge.com/Joint-Cognitive-Systems-Foundations-of-Cognitive-Systems-Engineering/Hollnagel-Woods/p/book/9780367864194)** (2005)
+**Erik Hollnagel & David Woods - [Joint Cognitive Systems](https://www.taylorfrancis.com/books/mono/10.1201/9781420038194/joint-cognitive-systems-erik-hollnagel-david-woods)** (2005)
 
 Treats human and machine as a single cognitive system. The unit of analysis isn't the person or the AI, but the combination. Changes how you think about designing AI-assisted workflows.
 
@@ -56,17 +56,17 @@ Reframes "human error" as symptom, not cause. The question isn't why people make
 
 Systems-theoretic accident model. Leveson argues accidents aren't component failures but control failures - the wrong constraints, or constraints not enforced. Relevant when AI becomes part of the control structure.
 
-**David Woods - [Four Concepts for Resilience](https://www.researchgate.net/publication/276139783_Four_concepts_for_resilience_and_the_implications_for_the_future_of_resilience_engineering)** (2015)
+**David Woods - [Four Concepts for Resilience](https://www.sciencedirect.com/science/article/abs/pii/S0951832015000848)** (2015)
 
 Distinguishes four meanings of "resilience": rebound, robustness, graceful extensibility, sustained adaptability. Clarifies what we actually mean when we say we want resilient systems.
 
 ## Trust and verification
 
-**Leslie Lamport - [Time, Clocks, and the Ordering of Events in a Distributed System](https://lamport.azurewebsites.net/pubs/time-clocks.pdf)** (1978)
+**Leslie Lamport - [Time, Clocks, and the Ordering of Events in a Distributed System](https://amturing.acm.org/p558-lamport.pdf)** (1978)
 
 Not about AI, but about the fundamental problem of knowing what happened and in what order. Relevant to any system where you need to understand and audit automated behaviour.
 
-**Charity Majors - [Observability Engineering](https://info.honeycomb.io/observability-engineering-oreilly-book-2022)** (2022)
+**Charity Majors - [Observability Engineering](https://www.oreilly.com/library/view/observability-engineering/9781492076438/)** (2022)
 
 The practical guide to building systems you can actually understand in production. The "observable" in my [observable, reversible, enforceable](https://cronyn.co.uk/writing/observable-reversible-enforceable.html) framework owes a lot to this.
 
@@ -104,7 +104,7 @@ How senior engineers create impact beyond writing code. Useful framing for what 
 
 ## Financial services context
 
-**Andrew Haldane - [The Dog and the Frisbee](https://www.bankofengland.co.uk/speech/2012/the-dog-and-the-frisbee)** (2012)
+**Andrew Haldane - [The Dog and the Frisbee](https://www.bankofengland.co.uk/paper/2012/the-dog-and-the-frisbee)** (2012)
 
 Bank of England speech on complexity in financial regulation. The argument: simple rules often outperform complex models. Relevant to thinking about where AI helps and where it doesn't.
 
