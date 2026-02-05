@@ -1,12 +1,34 @@
-# ai-engineering-reading-list
+# AI in Production Engineering
 
-A curated reading list on AI in production engineering. Not comprehensive - these are the papers, posts, and talks that have shaped how I think about the problem.
+A curated reading list for engineers integrating AI into production systems.
+
+**The thesis:** The bottleneck isn't capability - it's trust. We can build AI systems that perform; we struggle to build systems we can verify, understand, and safely operate. The infrastructure that matters is [*observable, reversible, and enforceable*](https://cronyn.co.uk/writing/observable-reversible-enforceable.html).
+
+Most AI commentary is academic theory or breathless hype. This list is neither. It's what's proved useful building production financial systems over 25 years, now with AI in the mix.
+
+## Reading trails
+
+Short on time? Three paths through this material:
+
+**The Bainbridge trail** (start here)
+Bainbridge → Cook → Klein → [my essay on the ironies](https://cronyn.co.uk/writing/ironies-of-automation.html)
+Why automation creates the problems it was meant to solve. The foundation for everything else.
+
+**The trust trail**
+Lamport → Charity Majors → Rudin → Huyen → [observable, reversible, enforceable](https://cronyn.co.uk/writing/observable-reversible-enforceable.html)
+Building systems you can verify. The framework for operational trust.
+
+**The people trail**
+Klein (both) → Allspaw → Larson → [my essay on building engineers](https://cronyn.co.uk/writing/ai-as-junior-engineer.html)
+How AI changes the way engineers develop expertise.
+
+---
 
 ## The foundational problem
 
 **Lisanne Bainbridge - [Ironies of Automation](https://www.ise.ncsu.edu/wp-content/uploads/2020/02/Bainbridge_1satisficer983_Ironies-of-front.pdf)** (1983)
 
-Written about industrial process control, but maps precisely onto AI-assisted software development. The core insight: the more advanced the automation, the more critical the human contribution, and the less likely humans are able to provide it. If you read one thing on this list, read this.
+Written about industrial process control, but maps precisely onto AI-assisted software development. The core insight: the more advanced the automation, the more critical the human contribution, and the less likely humans are able to provide it. If you read one thing on this list, read this. I wrote about applying this to AI in [Bainbridge's Ironies of Automation, forty years on](https://cronyn.co.uk/writing/ironies-of-automation.html).
 
 **Gary Klein - [Sources of Power: How People Make Decisions](https://mitpress.mit.edu/9780262534291/sources-of-power/)** (1998)
 
@@ -46,7 +68,7 @@ Not about AI, but about the fundamental problem of knowing what happened and in 
 
 **Charity Majors - [Observability Engineering](https://info.honeycomb.io/observability-engineering-oreilly-book-2022)** (2022)
 
-The practical guide to building systems you can actually understand in production. The "observable" in "observable, reversible, enforceable" owes a lot to this.
+The practical guide to building systems you can actually understand in production. The "observable" in my [observable, reversible, enforceable](https://cronyn.co.uk/writing/observable-reversible-enforceable.html) framework owes a lot to this.
 
 **Cynthia Rudin - [Stop Explaining Black Box Machine Learning Models](https://arxiv.org/abs/1811.10154)** (2019)
 
@@ -78,7 +100,7 @@ Why root cause analysis fails and what works instead. Allspaw's Learning from In
 
 **Will Larson - [Staff Engineer](https://staffeng.com/book)** (2021)
 
-How senior engineers create impact beyond writing code. Useful framing for what engineers should develop toward, even as AI changes the path there.
+How senior engineers create impact beyond writing code. Useful framing for what engineers should develop toward, even as AI changes the path there. I explored the junior end of this question in [Building engineers in the age of AI](https://cronyn.co.uk/writing/ai-as-junior-engineer.html).
 
 ## Financial services context
 
@@ -100,9 +122,17 @@ Rigorous treatment of ML in finance. The chapters on backtesting pitfalls alone 
 
 ## My own writing
 
-- [Trust, not capability: the real bottleneck in AI-assisted engineering](https://cronyn.co.uk/writing/trust-not-capability.html)
-- [Building engineers in the age of AI](https://cronyn.co.uk/writing/ai-as-junior-engineer.html)
-- [Bainbridge's Ironies of Automation, forty years on](https://cronyn.co.uk/writing/ironies-of-automation.html)
+**[Observable, reversible, enforceable](https://cronyn.co.uk/writing/observable-reversible-enforceable.html)**
+The framework for AI systems you can trust. What each term means, why it matters, and how to apply it.
+
+**[Trust, not capability: the real bottleneck in AI-assisted engineering](https://cronyn.co.uk/writing/trust-not-capability.html)**
+The core argument: we have capable AI, we lack the infrastructure to trust it.
+
+**[Building engineers in the age of AI](https://cronyn.co.uk/writing/ai-as-junior-engineer.html)**
+If AI handles the work that used to train junior engineers, how do we develop the next generation?
+
+**[Bainbridge's Ironies of Automation, forty years on](https://cronyn.co.uk/writing/ironies-of-automation.html)**
+Applying a 1983 paper on industrial automation to modern AI-assisted software development.
 
 ---
 
@@ -111,3 +141,10 @@ Rigorous treatment of ML in finance. The chapters on backtesting pitfalls alone 
 I'm [Ivan Cronyn](https://cronyn.co.uk), Principal Engineer & Head of Solutions Technology at Man Group. This list reflects what I've found useful thinking about AI in production financial software. It's not comprehensive and it's not neutral - these are the things that shaped my thinking.
 
 Suggestions welcome via issues or pull requests.
+
+---
+
+## Changelog
+
+- **February 2025**: Added safety and resilience section (Cook, Dekker, Leveson, Woods). Expanded trust section (Rudin, Huyen). Added building engineers section (Allspaw, Larson). Expanded financial section (López de Prado, Derman). Restructured with reading trails and cross-references.
+- **January 2025**: Initial list
