@@ -34,7 +34,7 @@ Written about industrial process control, but maps precisely onto AI-assisted so
 
 How experts actually make decisions under pressure. Not through analysis, but through pattern recognition built from experience. Relevant because AI changes how engineers build that pattern recognition.
 
-**Gary Klein - [Seeing What Others Don't](https://www.simonandschuster.com/books/Seeing-What-Others-Dont/Gary-Klein/9781610393829)** (2013)
+**Gary Klein - [Seeing What Others Don't](https://www.hachettebookgroup.com/titles/gary-klein/seeing-what-others-dont/9781610392754/)** (2013)
 
 Klein's follow-up to Sources of Power. This one focuses on insight: how experts notice things others miss. Relevant to understanding what expertise looks like and whether AI can replicate it.
 
