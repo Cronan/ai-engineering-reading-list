@@ -26,7 +26,7 @@ How AI changes the way engineers develop expertise.
 
 ## The foundational problem
 
-**Lisanne Bainbridge - [Ironies of Automation](https://www.ise.ncsu.edu/wp-content/uploads/2020/02/Bainbridge_1satisficer983_Ironies-of-front.pdf)** (1983)
+**Lisanne Bainbridge - [Ironies of Automation](https://ckrybus.com/static/papers/Bainbridge_1983_Automatica.pdf)** (1983)
 
 Written about industrial process control, but maps precisely onto AI-assisted software development. The core insight: the more advanced the automation, the more critical the human contribution, and the less likely humans are able to provide it. If you read one thing on this list, read this. I wrote about applying this to AI in [Bainbridge's Ironies of Automation, forty years on](https://cronyn.co.uk/writing/ironies-of-automation.html).
 
