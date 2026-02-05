@@ -38,7 +38,7 @@ How experts actually make decisions under pressure. Not through analysis, but th
 
 Klein's follow-up to Sources of Power. This one focuses on insight: how experts notice things others miss. Relevant to understanding what expertise looks like and whether AI can replicate it.
 
-**Erik Hollnagel & David Woods - [Joint Cognitive Systems](https://www.routledge.com/Joint-Cognitive-Systems-Foundations-of-Cognitive-Systems-Engineering/Hollnagel-Woods/p/book/9780367864194)** (2005)
+**Erik Hollnagel & David Woods - [Joint Cognitive Systems](https://www.taylorfrancis.com/books/mono/10.1201/9781420038194/joint-cognitive-systems-erik-hollnagel-david-woods)** (2005)
 
 Treats human and machine as a single cognitive system. The unit of analysis isn't the person or the AI, but the combination. Changes how you think about designing AI-assisted workflows.
 
