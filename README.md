@@ -2,7 +2,7 @@
 
 A curated reading list for engineers integrating AI into production systems.
 
-**The thesis:** The bottleneck isn't capability - it's trust. We can build AI systems that perform; we struggle to build systems we can verify, understand, and safely operate. The infrastructure that matters is *observable* (you can see what happened), *reversible* (you can undo it), and *enforceable* (you can constrain it).
+**The thesis:** The bottleneck isn't capability - it's trust. We can build AI systems that perform; we struggle to build systems we can verify, understand, and safely operate. The infrastructure that matters is [*observable, reversible, and enforceable*](https://cronyn.co.uk/writing/observable-reversible-enforceable.html).
 
 Most AI commentary is academic theory or breathless hype. This list is neither. It's what's proved useful building production financial systems over 25 years, now with AI in the mix.
 
@@ -15,8 +15,8 @@ Bainbridge → Cook → Klein → [my essay on the ironies](https://cronyn.co.uk
 Why automation creates the problems it was meant to solve. The foundation for everything else.
 
 **The trust trail**
-Lamport → Charity Majors → Rudin → Huyen → [my essay on trust](https://cronyn.co.uk/writing/trust-not-capability.html)
-Building systems you can verify. Where "observable, reversible, enforceable" comes from.
+Lamport → Charity Majors → Rudin → Huyen → [observable, reversible, enforceable](https://cronyn.co.uk/writing/observable-reversible-enforceable.html)
+Building systems you can verify. The framework for operational trust.
 
 **The people trail**
 Klein (both) → Allspaw → Larson → [my essay on building engineers](https://cronyn.co.uk/writing/ai-as-junior-engineer.html)
@@ -68,7 +68,7 @@ Not about AI, but about the fundamental problem of knowing what happened and in 
 
 **Charity Majors - [Observability Engineering](https://info.honeycomb.io/observability-engineering-oreilly-book-2022)** (2022)
 
-The practical guide to building systems you can actually understand in production. The "observable" in my [observable, reversible, enforceable](https://cronyn.co.uk/writing/trust-not-capability.html) framework owes a lot to this.
+The practical guide to building systems you can actually understand in production. The "observable" in my [observable, reversible, enforceable](https://cronyn.co.uk/writing/observable-reversible-enforceable.html) framework owes a lot to this.
 
 **Cynthia Rudin - [Stop Explaining Black Box Machine Learning Models](https://arxiv.org/abs/1811.10154)** (2019)
 
@@ -122,8 +122,11 @@ Rigorous treatment of ML in finance. The chapters on backtesting pitfalls alone 
 
 ## My own writing
 
+**[Observable, reversible, enforceable](https://cronyn.co.uk/writing/observable-reversible-enforceable.html)**
+The framework for AI systems you can trust. What each term means, why it matters, and how to apply it.
+
 **[Trust, not capability: the real bottleneck in AI-assisted engineering](https://cronyn.co.uk/writing/trust-not-capability.html)**
-The core argument: we have capable AI, we lack the infrastructure to trust it. Introduces the "observable, reversible, enforceable" framework.
+The core argument: we have capable AI, we lack the infrastructure to trust it.
 
 **[Building engineers in the age of AI](https://cronyn.co.uk/writing/ai-as-junior-engineer.html)**
 If AI handles the work that used to train junior engineers, how do we develop the next generation?
